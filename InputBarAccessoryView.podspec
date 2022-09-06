@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
     s.swift_versions = '5.5'
 
     # 2 - Version
-    s.version = "6.1.0"
+    s.version = '~> 6.1.0'#"6.1.0"
 
     # 3 - License
     s.license = { :type => "MIT", :file => "LICENSE" }
@@ -20,10 +20,10 @@ Pod::Spec.new do |s|
     s.author = { "Nathan Tannar" => "nathantannar4@gmail.com" }
 
     # 5 - Homepage
-    s.homepage = "https://github.com/HB-Krutagn/InputBarAccessoryView"
+    s.homepage = "https://github.com/nathantannar4/InputBarAccessoryView"
 
     # 6 - Source
-    s.source = { :git => "https://github.com/HB-Krutagn/InputBarAccessoryView.git", :tag => "#{s.version}"}
+    s.source = { :git => "https://github.com/nathantannar4/InputBarAccessoryView.git", :tag => "#{s.version}"}
 
     # 7 - Dependencies
     s.framework = "UIKit"
