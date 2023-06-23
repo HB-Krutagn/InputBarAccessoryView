@@ -205,7 +205,7 @@ open class InputBarAccessoryView: UIView {
      ````
      
      */
-    open var padding: UIEdgeInsets = UIEdgeInsets(top: 6, left: 12, bottom: 6, right: 12) {
+  open var padding: UIEdgeInsets = UIEdgeInsets(top: 10, left: 12, bottom: 10, right: 12) {
         didSet {
             updatePadding()
         }
